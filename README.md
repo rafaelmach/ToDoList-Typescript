@@ -15,7 +15,7 @@ Lista de Tarefas - Typescript 📘
 <hr />
 
 ## Website
-- Link para o website do projeto:  <a href="https://omdb-rafael-mach.surge.sh/" target="_blank"> Dar uma olhada! 👀 </a> 💻 
+- Link para o website do projeto:  <a href="https://to-do-list-typescript.surge.sh/" target="_blank"> Dar uma olhada! 👀 </a> 💻 
 
 ## Ferramentas e Tecnologias
 
