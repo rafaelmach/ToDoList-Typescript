@@ -1,19 +1,22 @@
-import { useState } from "react"
 import { Item } from "../../types/Item"
 import * as C from "./ListItem.styles"
 
 type Props = {
   item: Item
+  handleCheckBox: (taskId: number, taskStatus: boolean) => void
 }
 
-const ListItem = ({ item }: Props) => {
-  const [isChecked, setIsChecked] = useState(item.done)
-
-  console.log(isChecked)
+const ListItem = ({ item, handleCheckBox }: Props) => {
   return (
-    <C.Container taskStatus={isChecked}>
-      <input type="checkbox" checked={isChecked} onChange={e => setIsChecked(e.target.checked)} />
-      <label>{item.name}</label>
+    <C.Container taskStatus={item.done}>
+      <input
+        type="checkbox"
+        checked={item.done}
+        onChange={(e) => handleCheckBox(item.id, e.target.checked)}
+      />
+      <label>
+        {item.name} - {item.done.toString()}
+      </label>
     </C.Container>
   )
 }
