@@ -14,9 +14,6 @@ Lista de Tarefas - Typescript 📘
 
 <hr />
 
-## Website
-- Link para o website do projeto:  <a href="https://to-do-list-typescript.surge.sh/" target="_blank"> Dar uma olhada! 👀 </a> 💻 
-
 ## Ferramentas e Tecnologias
 
 This app features all the latest tools and practices in web development
